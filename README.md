@@ -353,6 +353,8 @@ model = joblib.load(Path("models/best_model.joblib"))
 ```
 SUPARVISED LEARNING/
 │
+├──Dataset
+│     └── Advanced_Regression_HousePrice_Dataset_3800 csv
 ├── .devcontainer/
 │   └── devcontainer.json
 │
@@ -362,9 +364,15 @@ SUPARVISED LEARNING/
 │
 ├── outputs/
 │   └── final_summary.csv
-│
+    └──  Model_Comparison_Using_Test_RMSE_plot.png
+    └──SVR_actual_vs_predicted_house_plot.png
+    └──cv_comparison.png
+    └──final_model_comparision.csv
+    └──random_forest_actual_vs_predicted_House_pricesplot.png
+    └──random_forest_residual_plot.png
 ├── app.py
-├── notebook.ipynb
+├── notebook
+    └── Robust Regression Engine.ipynb
 ├── requirements.txt
 └── README.md
 ```
